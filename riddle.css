@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+
+* , *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(bg.png);
+    
+    font-family: 'Exo 2', sans-serif;
+    
+  }
+
+.logo{
+    
+    width: 75%;
+    height: 75%;
+    padding-top: 10px;
+      
+}
+
+.riddle-heading{
+    color: #3C7DFF;
+    padding-top: 40px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.riddle{
+    color: #ffff;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    padding:20px;
+}
+
+.answer{
+    color: #3C7DFF;
+    font-weight: 800;
+    text-align: left;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.input{
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    width: 70.5%;
+    border-color: #3C7DFF;
+    color: white;
+    
+}
+
+.btn{
+    align-items: center;
+    float: right;
+    border: unset;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(180deg, #531388 0%, #160523 54.69%, #000000 100%);
+}
+
+
+.profile{
+    color: #8ECAF4;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: right;
+    padding: 20px;
+}
+
+
+
+.back{
+   
+    padding: 20px;
+    color: #8ECAF4;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+}
+
+.abc{
+    position: relative;
+    height: 10%;
+    width: 13%;
+    float: right;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+ }
